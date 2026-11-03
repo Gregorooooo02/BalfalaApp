@@ -127,7 +127,7 @@ struct DashboardView: View {
             }
             
             // Tab 2 - visits
-            Text("Lista wszystkich pobytów")
+            StaysListView()
                 .tag(1)
                 .tabItem {
                     Label("Pobyty", systemImage: "calendar")
